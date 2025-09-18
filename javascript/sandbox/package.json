@@ -1,0 +1,21 @@
+{
+  "name": "data-structures-demo",
+  "version": "1.0.0",
+  "description": "CLI demo for data structures and algorithms lectures",
+  "main": "dist/index.js",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsx watch src/index.ts",
+    "start": "node dist/index.js",
+    "demo": "tsx src/index.ts"
+  },
+  "keywords": ["typescript", "cli", "data-structures", "algorithms", "demo"],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^5.5.4",
+    "tsx": "^4.19.0",
+    "@types/node": "^22.5.0"
+  }
+}
